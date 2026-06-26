@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <h1 id="titulo">Contacto | Comidas Saludables</h1>
+
+    <div id="divform">
+        <p class="indicacionesContacto">Por favor dejanos tu comentario para seguir mejorando.</p>
+        <form action="/submit" method="post">
+
+            <div class="mb-3 col-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="mb-3 col-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+            </div>
+            <p>Consulta</p>
+            <select class="form-select w-25" aria-label="Default select example">
+                <option selected>Mi consulta es sobre...</option>
+                <option value="1">Promos bancarias</option>
+                <option value="2">Problemas con la web</option>
+                <option value="3">Venden productos para celiacos?</option>
+                <option value="3">Otras</option>
+            </select>
+            <div class="mb-3 col-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                <textarea class="form-control" id="comentario" rows="9" cols="1"></textarea>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
+                <label class="form-check-label" for="switchCheckChecked">Acepta recibir mails de promociones y
+                    novedades</label>
+            </div>
+            <div class="col-12 mb-3 mt-3" id="botonEnviar">
+                <button class="btn btn-warning" type="button" id="botonE">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+    <footer id="footer"></footer>
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/contacto.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

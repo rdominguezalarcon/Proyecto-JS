@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "nombre": "Albondigas con salsa y pure",
+        "detalles": "300 kcal 30g prot 70g carb",
+        "imagen": "../assets/img/albon.png",
+        "precio": "15000",
+        "esVegetariano": false,
+        "esPostre": false
+    },
+    {
+        "id": 2,
+        "nombre": "Guiso de lentejas y portos",
+        "detalles": "500 kcal 25g prot 170g carb",
+        "imagen": "../assets/img/guiso.png",
+        "precio": "12500",
+        "esVegetariano": true,
+        "esPostre": false
+    },
+    {
+        "id": 3,
+        "nombre": "Medallones de merluza",
+        "detalles": "600 kcal 32g prot 20g carb",
+        "imagen": "../assets/img/merlu.png",
+        "precio": "16000",
+        "esVegetariano": false,
+        "esPostre": false
+    },
+    {
+        "id": 4,
+        "nombre": "Tarta de brocoli y queso",
+        "detalles": "700 kcal 40g prot 47g carb",
+        "imagen": "../assets/img/broco.png",
+        "precio": "8500",
+        "esVegetariano": true,
+        "esPostre": false
+    },
+    {
+        "id": 5,
+        "nombre": "Pollo a la mostaza",
+        "detalles": "650 kcal 40g prot 65g carb",
+        "imagen": "../assets/img/pollo.png",
+        "precio": "17000",
+        "esVegetariano": false,
+        "esPostre": false
+    },
+    {
+        "id": 6,
+        "nombre": "Milanesa de soja con arroz",
+        "detalles": "480 kcal 32g prot 275g carb",
+        "imagen": "../assets/img/soja.png",
+        "precio": "9000",
+        "esVegetariano": true,
+        "esPostre": false
+    },
+    {
+        "id": 7,
+        "nombre": "Pizza integral de brocoli",
+        "detalles": "800 kcal 26g prot 475g carb",
+        "imagen": "../assets/img/pizza.png",
+        "precio": "11500",
+        "esVegetariano": true,
+        "esPostre": false
+    },
+    {
+        "id": 8,
+        "nombre": "Wrap de pollo",
+        "detalles": "550 kcal 30g prot 4125g carb",
+        "imagen": "../assets/img/wrap.png",
+        "precio": "7500",
+        "esVegetariano": false,
+        "esPostre": false
+    },
+    {
+        "id": 9,
+        "nombre": "Pan de carne",
+        "detalles": "600 kcal 35g prot 300g carb",
+        "imagen": "../assets/img/pan.png",
+        "precio": "9500",
+        "esVegetariano": false,
+        "esPostre": false
+    },
+    {
+        "id": 10,
+        "nombre": "Tarta de atun",
+        "detalles": "750 kcal 20g prot 400g carb",
+        "imagen": "../assets/img/atun.png",
+        "precio": "9000",
+        "esVegetariano": false,
+        "esPostre": false
+    },
+    {
+        "id": 11,
+        "nombre": "Mouse proteico choco",
+        "detalles": "200 kcal 31g prot 450g carb",
+        "imagen": "../assets/img/mouse.png",
+        "precio": "2500",
+        "esVegetariano": true,
+        "esPostre": true
+    },
+    {
+        "id": 12,
+        "nombre": "Gelatina con chia",
+        "detalles": "320 kcal 36g prot 250g carb",
+        "imagen": "../assets/img/chia.png",
+        "precio": "2000",
+        "esVegetariano": false,
+        "esPostre": true
+    },
+    {
+        "id": 13,
+        "nombre": "Gelatina frutal",
+        "detalles": "400 kcal 26g prot 300g carb",
+        "imagen": "../assets/img/frutal.png",
+        "precio": "2000",
+        "esVegetariano": false,
+        "esPostre": true
+    },
+    {
+        "id": 14,
+        "nombre": "Brownie con nueces",
+        "detalles": "800 kcal 15g prot 500g carb",
+        "imagen": "../assets/img/brownie.png",
+        "precio": "3000",
+        "esVegetariano": true,
+        "esPostre": true
+    },
+    {
+        "id": 15,
+        "nombre": "Galletas de avena",
+        "detalles": "700 kcal 17g prot 600g carb",
+        "imagen": "../assets/img/galleta.png",
+        "precio": "3500",
+        "esVegetariano": true,
+        "esPostre": true
+    }
+]

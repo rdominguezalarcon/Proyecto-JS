@@ -1,0 +1,101 @@
+footer,
+.navbar nav {
+    height: 3.5rem;
+
+}
+
+footer,
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.navbar nav ul li {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.navbar nav ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(234, 231, 231);
+    margin-left: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.navbar nav ul li a:hover {
+    color: chocolate;
+}
+
+.navbar nav ul li img {
+    height: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h3 {
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+footer {
+    background-color: #eead67;
+    position: sticky;
+    bottom: 0;
+}
+
+header {
+    background-color: #eead67;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+    max-width: calc(100vw - 8rem);
+    margin: 0 auto;
+}
+
+.card {
+    align-items: center;
+}
+
+.card img {
+    width: 16rem;
+    height: 16rem;
+    padding: .5rem;
+}
+
+#carrito {
+    min-height: 40vh;
+    margin-left: 50px;
+
+}
