@@ -38,13 +38,17 @@ const mostrarPostres = () => {
 
                     localStorage.setItem('carrito', JSON.stringify(carrito));
 
-                    console.log("Producto añadido:", producto);
                 }
             });
         })
-        .catch((error) =>
-            console.error("Ups, Algo salio mal...", error))
-        .finally(() => console.log("Peticion finalizada"))
+        .catch((error) => {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Ha ocurrido un error al cargar los productos!",
+            });
+        })
+
 
 }
 
